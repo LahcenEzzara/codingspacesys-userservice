@@ -5,7 +5,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy jar file
-COPY target/userservice-0.0.1-SNAPSHOT.jar userservice.jar
+COPY target/UserService-0.0.1-SNAPSHOT.jar userservice.jar
 
 # Expose the port the service listens on
 EXPOSE 8080
